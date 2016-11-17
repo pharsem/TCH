@@ -1,0 +1,126 @@
+body{	
+	margin: 0px;
+}
+
+#login_main_container{
+	width: 485px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#text_box_name{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+
+#text_box_password{
+	position: absolute;
+	top: 70px;
+	left: 10px;
+}
+
+.text_box{
+	z-index: 2;
+	height: 35px; 
+    width: 280px;
+	border: solid 1px white;
+	border-radius: 8px;
+	font-size: 22px;
+    padding-left: 10px;
+}
+
+#text_box_background{
+	z-index: 1;
+	position: absolute;
+	width: 461px;
+	height: 132px;
+	background-color: #008367;
+	border: solid 8px #006652;
+	border-radius: 8px;
+	top: 375px;
+	left: 4px;
+}
+
+#login_text input{
+	line-height: 120px;
+	vertical-align: center;
+	height: 120px;
+	width: 125px;
+	float:right;
+	font-size: 38px;
+	font-family: 'Sanchez', serif;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	background: none;
+	border: none;
+}
+
+#login_text input:hover{
+	color: #ac1a2f;
+}
+
+#login_logo_background{
+	z-index: 2;
+	position: absolute;
+	width: 428px;
+	height: 317px;
+	background-image: url('/images/logo_background_login.png');
+	top: 80px;
+	left: 52px;
+}
+
+#login_logo_text{
+	z-index: 3;
+	position: absolute;
+	width: 290px;
+	letter-spacing: -2px;
+	line-height: 29px;
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Sanchez', serif;
+	color: white;
+	top: 78%;
+	left: 2%;
+}
+
+#footer{
+	width: 430px;
+	height: 25px;
+    text-align: center;
+	background-color: #a9a9a9;
+	border: solid 1px #a9a9a9;
+	border-radius: 8px;
+	position: absolute;
+	top: 515px;
+    left: 20px;
+}
+
+#footer a{
+	font-family: 'Sanchez', serif;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	margin: 15px;
+	
+}
+		
+
+#login_error{
+    position: relative;
+    text-align: center;
+    width: 430px;
+    height: 25px;
+    color: red;
+    top: 550px;
+    left: 20px;
+}
+
+#login_error p {
+    font-family: 'Sanchez', serif;
+	font-size: 14px;
+}

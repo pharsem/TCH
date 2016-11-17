@@ -1,0 +1,247 @@
+/*font import*/
+
+@font-face {
+    font-family: 'Sanchez';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Sanchez'), local('Sanchez-Regular'), url(http://themes.googleusercontent.com/static/fonts/sanchez/v2/mx466fsxfR1AA3OwUm3waQ.woff) format('woff');
+}
+
+/*-*/
+
+
+
+/*main global css*/
+
+#body{	
+	margin: 0px;	
+    overflow-y: scroll;
+	background-color: #f8f8f8;
+}
+
+#wrapper{
+	min-width: 1000px;
+	min-height: 768px;
+	width: 98%;
+	margin: 10px auto;	
+	position: relative;
+}
+
+#header{
+	width: 100%;
+	height: 200px;
+	background-color: #008367;	
+    border: 8px solid #006652;
+    border-radius:6px;
+	background-image: url('../images/bg.png');
+	background-repeat: no-repeat
+}
+
+#logo_background{
+    z-index: 2;
+    width: 539px;
+    height: 185px;
+    background-image: url('../images/logo_background.png');
+    position: absolute;
+    left: 10px;
+}
+
+#logo_text{
+	z-index: 3;
+	position: absolute;
+	width: 408px;
+	letter-spacing: -2px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 45px;
+	font-family: 'Sanchez', serif;
+	color: white;
+	top: 95px;
+	left: -11px;
+}
+
+#menu{
+    z-index: 1;
+    position: absolute;
+    left: 55%;    
+}
+
+#menu_bg{
+    z-index: 1;
+	width: 100%;
+	height: 40px;
+	background-color: white;
+    top: 145px;
+    position: relative;
+    border-radius:6px;      
+}
+
+#loggedin_info {
+	float: right;
+	text-align: right;
+	margin: 10px;
+	color: white;
+}
+
+#loggedin_info a {
+	color: white;
+	text-decoration: underline;
+}
+
+
+#main_container{
+	min-width: 100%;	
+	height: auto;
+	position: absolute;
+	top: 210px;
+}
+
+#left_nav{
+    width: 15%;
+	height: 350px;
+	float: none;
+    position: absolute;    
+    padding-right: 10px;   
+}
+
+#right_container{
+    width: 100%;    
+	float: right;
+    padding: 10px;  
+	
+}
+
+#footer_{
+   position:absolute;
+   bottom:-30;
+   width: 100%;
+   height:40px;
+    background-color: #FFFFFF;    
+    border: solid 1px #dddddd;    
+    border-radius:3px;
+    font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	vertical-align: center;
+
+}
+
+/*-*/
+
+
+
+/*homepage css*/
+
+#topimage{
+    width: 98%;
+    height: 400px;
+    background-image: url('../images/topimage.jpg');
+    margin-top: 15px;
+    margin: 10px;
+    border-radius:6px;
+    
+}
+
+#top_buttons_wrapper{
+    width: 100%;
+    padding: 0px auto;
+    text-align: center; 
+
+}
+
+#welcome_msg{
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#staff_news{
+    padding: 10px;
+    margin: 10px;
+
+}
+/*-*/
+
+
+
+/*external and internal map css*/
+
+#detailmap{
+	width: 100%;
+	height: 350px;
+    border: 1px solid black;
+		
+}
+
+#map_info{
+    padding: 10px;
+}
+
+#intermap{
+	margin: 20px 100px 20px 100px;	
+	height: 400px;
+	background-image: url('../images/temp_map/level1.png'); 
+
+}
+
+/*-*/
+
+
+
+/*patient and staff*/
+
+#livesearch{
+    margin: 20px auto;
+	border: none !important;
+}
+
+#user_information {
+	list-style-type: none;
+}
+
+#user_photo {
+    margin-left: 40px;
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/profile.png');  
+    
+}
+
+#user_name {
+    padding-left: 20px;
+}
+
+/*-*/
+
+
+
+/*adding users forms*/
+
+#add_form {
+	margin-left: 50px;
+}
+
+#form_box{
+	width: 600px;
+}
+
+/*-*/
+
+
+
+/*surgeries css*/ 
+
+#surgery_form{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#room-availability {
+    margin: 0 0 0 700px;
+}
+
+.float-left {
+    float: left;
+}
+
+/*-*/
